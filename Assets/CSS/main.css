@@ -1,0 +1,278 @@
+html {
+    background: #bdbdbd;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto; /* Выровняем по центру */
+    background: #fff;
+    min-height: 100vh; /* минимальная высота - сто процентов высоты окна */
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #f9a825;
+    position: sticky; /* Оставаться на месте при прокрутке */
+    top: 0;
+    background-color: #fff;
+}
+
+a.logo-link {
+    display: inline-block;
+    width: 163px;
+    height: 25px;
+}
+
+.nav {
+    display: inline-block;
+    width: calc(100% - 200px);
+    text-align: right;
+}
+
+.nav a {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 30px; /* высота строки */
+    display: inline-block;
+    margin-left: 50px;
+}
+
+a {
+    color: #303f9f;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 300;
+    line-height: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #311b92;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #f9a825;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 26px; /* Высота строки */
+    margin-top: 0;
+    padding-top: 38px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+.about-us, .static-header {
+    /* Градиент фона: https://cssgradient.io/ */
+    background: radial-gradient(circle, rgba(79,195,247,1) 0%, rgba(148,187,233,0) 100%);
+}
+
+.about-us, .business {
+    padding: 10px 30px 30px; 
+}
+
+
+
+.about-us img, .business img {
+    border-radius: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+.about-us img {
+    
+    margin-right: 30px;
+}
+
+.business img {
+    margin-left: 30px;
+}
+
+.about-us img {
+    aspect-ratio: 1.4987; /* Соотношение сторон */
+}
+
+.business img {
+    aspect-ratio: 1.194;
+}
+
+.about-us p {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.business ul {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+
+.business ul li {
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+
+.why-us {
+    background-color: #eceff1;
+    padding: 20px 0
+}
+
+.why-us ul {
+    padding: 20px 16px 16px;
+}
+
+.why-us ul li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.why-us ul li img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.why-us ul li strong {
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    padding-top: 8px;
+    vertical-align: top;
+}
+
+
+
+.latest-news ul {
+    padding: 0 20px 10px;
+    list-style-type: none;
+}
+
+
+
+.latest-news ul li strong {
+    font-family: "Oswald", sans-serif;
+}
+.latest-news ul li p {
+    line-height: 20px;
+    font-weight: 300;
+}
+.latest-news ul li span.date {
+    font-size: 10px;
+    color: #888;
+    display: inline-block;
+    width: 100px;
+}
+.latest-news a {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #3949ab;
+}
+
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.news-item span.date {
+    color: #888;
+    display: inline-block;
+    width: 100px;
+}
+
+p.news-content.hidden {
+    display: none;
+}
+
+.static-header {
+    padding-bottom: 20px;
+}
+.static-header p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calculator form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.calculator form .form-input {
+    display: inline-block;
+    width: 380px;
+    margin-left: 10px;
+}
+
+.calculator form input {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    display: block;
+    min-width: 0;
+    width: 360px;
+}
+
+.contacts {
+    padding: 20px 20px 40px;
+
+}
+
+.contacts iframe {
+    aspect-ratio: 2;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.contacts a {
+    line-height: 20px;
+    display: inline-block;
+    width: 20%;
+}
+
+.contacts p {
+    margin: 0;
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+}
+
+.video-outer {
+    margin: 50px auto;
+    max-width: 800px;
+}
+.video-outer iframe {
+    aspect-ratio: 2;
+    width: 100%;
+}
